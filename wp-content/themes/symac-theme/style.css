@@ -1,0 +1,270 @@
+/*
+Theme Name: Aguia Utilidades
+Author: Luiz Augusto
+Description: Utilidades em Geral.
+Version: 1.0
+*/
+
+h1{
+	text-align: center;
+	font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #808080;
+}
+
+h3{
+	text-align: center;
+	font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #808080;
+}
+
+.top-space{
+	padding-top: 80px;
+}
+
+.top-space-page{
+	padding-top: 120px;
+}
+
+.navegacao-mobile{
+	display: none;
+}
+
+.logo{
+	margin-top: 15px;
+	width: 100%;
+}
+
+.navegacao-desktop{
+	background-color: #ffffff;
+	width: 100%;
+	position: fixed;
+	border-bottom:1px solid #ccc;
+	z-index: 999;
+}
+
+.navegacao-desktop .row{
+	margin-bottom: 0;
+}
+
+.posicao{
+	float: right;
+}
+
+.menu-menu-container ul{
+	line-height:80px;
+	margin-bottom: 0
+}
+
+.menu-menu-container ul li{
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.current-menu-item a{
+	color:#ef7439!important;
+}
+
+.menu-menu-container ul li a{
+	text-decoration: none;
+	font-weight: 700;
+	transition: 0.5s;
+}
+
+.busca{
+	display: none;
+}
+
+.rodape{
+	background-color: #808080;
+	padding: 50px 0; 
+}
+
+.custom-html-widget{
+	font-size: 1.2em;
+}
+
+.cop{
+	border-top: 1px solid #b1b1b1;
+	padding-top: 20px;
+}
+
+.cop p{
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+}
+
+.cont-img{
+	width: 50px;
+	height: auto;
+	position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.altura{
+	min-height: 250px;
+}
+
+.cont-img img{
+	max-width: 100%;
+    height: auto;
+    margin-top: 40px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.cont-img img:hover{
+	-moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.principais-produtos{
+	padding: 50px;
+}
+
+#slider{
+	padding: 0;
+}
+
+#slider .container .row{
+	margin-bottom: 0;
+}
+
+.container-img{
+	width: 100%;
+	min-height:600px;
+	max-height: 600px;
+	overflow: hidden;	
+}
+
+.texto-slider{
+	position: relative;
+	width: 90%;
+    margin: 0 auto;
+}
+
+.texto-slider h3{
+	position: absolute;
+	font-size: 3em;
+	font-weight: 700;
+	color: #ffffff;
+	text-shadow: 1px 1px 6px #1b1b1b;
+	margin-top: 20%;
+}
+
+.menu-produtos{
+	background-color: #FFFAFA;
+}
+
+#sidbar{
+	background-color: #f2f2f2;
+	padding-bottom: 20px;
+	margin-top: 40px;
+	border: 1px solid #b1b1b1;
+}
+
+#sidbar h2{
+	width: 100%;
+	background-color: #1b1b1b;
+	color: #ffffff;
+	padding: 5px 0 0 5px;
+}
+
+#sidbar ul li{
+	padding-top: 3px;
+	border-bottom: 1px solid #b1b1b1;
+}
+
+#sidbar ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 2em;
+	color: #787878;
+}
+
+#sidbar ul li a:hover{
+	font-weight: 700;
+}
+
+.current-cat a{
+	color: #000!important;
+	font-weight: 700;
+}
+
+@media (max-width: 800px){
+	.navegacao-desktop{
+		display: none;
+	}
+
+	.navegacao-mobile{
+		display: block;
+	}
+
+	.navegacao-mobile .row{
+		margin-bottom: 0;
+	}
+
+	.busca{
+		display: inline-block;
+    	background-color: #ffffff;
+    	border: 1px solid #555;
+    	border-radius: 5px;
+    	padding: 5px 10px;
+	}
+
+	.glyphicon{
+		font-size: 1.5em;
+    	line-height: 25px;
+	}
+
+	button:focus{
+		background-color:#ccc;
+	}
+
+	.campo_busca{
+		display: none;
+		width: 100%;
+	}
+
+	.posicao{
+		float: left;
+		width: 100%;
+	}
+
+	.principais-produtos{
+		padding:10px;
+	}
+
+	.menu-menu-container ul{
+		line-height: 50px;
+	}
+
+	.menu-menu-container ul li{
+		display: block;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.container-img{
+		min-height: 270px;
+	}
+
+	.texto-slider{
+		margin-top: 2%;
+	}
+
+	.texto-slider h3{
+		margin-top: 20px;
+	}
+
+	#sidbar{
+		margin-top: 0;
+	}
+
+}

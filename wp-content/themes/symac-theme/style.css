@@ -21,6 +21,10 @@ h3{
     color: #257abd;
 }
 
+.login{
+	line-height: 85px;
+}
+
 .altura p{
 	text-align: center;
 	color: #808080;

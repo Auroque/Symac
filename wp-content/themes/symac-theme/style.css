@@ -21,6 +21,11 @@ h3{
     color: #808080;
 }
 
+.altura p{
+	text-align: center;
+	color: #808080;
+}
+
 .top-space{
 	padding-top: 80px;
 }
@@ -119,9 +124,10 @@ h3{
 }
 
 .cont-img img:hover{
-	-moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+	cursor: pointer;
+	-moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 .principais-produtos{

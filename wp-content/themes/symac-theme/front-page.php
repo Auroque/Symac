@@ -1,7 +1,35 @@
 <?php get_header(); ?>
+<!-- Início do Slider -->
+<?php 
+$sections = new WP_Query(
+	array(
+		'post_type' => 'slider',
+		'ignore_sticky_posts' => true,
+		'showposts' => -1,
+		'orderby' => array(
+        'date'          => 'DESC',
+        'comment_count' => 'DESC',
+    ),
+		'order' => 'ASC'
+		)
+);
+?>
+<div class="section top-space">
+	<div class="slider">
+	    <ul class="slides">
+	    <?php if ($sections->have_posts()): ?>
+			<?php while ($sections->have_posts()) : $sections->the_post(); ?>
+		      <li>
+		        <img alt="thumb image" class="wp-post-image" src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:650px;">
+		      </li>
+			<?php endwhile; ?>
+			<?php endif; ?>
+		<?php wp_reset_query(); ?>
+	    </ul>
+	  </div>
 
- <!-- início de Principais Produtos -->
- <div class="section top-space">
+ <!-- início de Diferenciais -->
+ <div class="section">
  	<div class="container principais-produtos">
  		<div class="row">	
  			<?php 

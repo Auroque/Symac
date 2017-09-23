@@ -36,6 +36,8 @@ h3{
 
 .navegacao-mobile{
 	display: none;
+	border-bottom:1px solid #ccc;
+	box-shadow: 1px 1px 2px #ccc;
 }
 
 .logo{
@@ -47,8 +49,9 @@ h3{
 	background-color: #ffffff;
 	width: 100%;
 	position: fixed;
-	border-bottom:1px solid #ccc;
 	z-index: 999;
+	border-bottom:1px solid #ccc;
+	box-shadow: 1px 1px 2px #ccc;
 }
 
 .navegacao-desktop .row{

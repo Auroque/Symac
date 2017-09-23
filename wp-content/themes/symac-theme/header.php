@@ -51,14 +51,16 @@
 					</a>
 				</div>
 				<div class="campo_busca">
-					<div class="col-md-9">
+					<div class="col-md-8">
 						<div class="posicao">
 							<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 						</div>
 					</div>	
-					<div class="col-md-1 login">
-						<div class="centralizar">							
-							<a class="btn btn-default" href="#" role="button" target="_blank">LOGIN</a>						
+					<div class="col-md-2 login">
+						<div class="centralizar">
+							<div class="posicao">
+								<a class="btn btn-default" href="#" role="button" target="_blank">ACESSAR</a>	
+							</div>							
 						</div>
 					</div>
 				</div>

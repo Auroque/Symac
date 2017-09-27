@@ -21,6 +21,10 @@ h3{
     color: #257abd;
 }
 
+.fundo-cinza{
+	background-color: #f3f3f3;
+}
+
 .login{
 	line-height: 85px;
 }
@@ -35,7 +39,7 @@ h3{
 }
 
 .top-space-page{
-	padding-top: 120px;
+	padding-top: 90px;
 }
 
 .navegacao-mobile{

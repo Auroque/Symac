@@ -26,8 +26,8 @@
 				<?php while ($sections->have_posts()) : $sections->the_post(); ?>
 					<div class="col-md-3 altura">
 						<div class="cont-img cont-img-sg">
-						<h3><?php the_title(); ?></h3>
-							<img alt="thumb image" class="wp-post-image" src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:auto;" />
+						<a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
+							<a href="<?php the_permalink(); ?>"><img alt="thumb image" class="wp-post-image" src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:auto;" /></a>
 						</div>
 						<?php the_excerpt(); ?>
 					</div>

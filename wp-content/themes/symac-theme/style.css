@@ -21,6 +21,20 @@ h3{
     color: #257abd;
 }
 
+h2{
+	font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+label{
+	width: 100%;
+	color: #ffffff;
+	font-size: 1em;
+	font-weight: 500;
+}
+
 .fundo-cinza{
 	background-color: #f3f3f3;
 }
@@ -234,6 +248,7 @@ h3{
 }
 
 .cont-img-sg{
+	background-color: #ffffff;
 	width: 100%;
 	min-height: 300px;
 	padding: 20px 20px;
@@ -241,6 +256,7 @@ h3{
 	border-radius: 5px;
 	margin-bottom: 30px;
 	margin-top: 20px;
+	box-shadow: 1px 1px 13px #ccc;
 }
 
 .cont-img-sg img:hover{

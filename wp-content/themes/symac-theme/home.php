@@ -2,7 +2,7 @@
 	<div class="section menu-produtos top-space-page">
 		<div class="container">
 			<div class="row">
-					<h1><?php the_title(); ?></h1>
+					<h1>SEGMENTOS</h1><hr>
 					<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 						<div class="col-md-3">
 							<div class="cont-img cont-img-sg">

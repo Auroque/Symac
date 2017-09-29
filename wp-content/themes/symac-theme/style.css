@@ -50,6 +50,7 @@ label{
 
 .top-space{
 	padding-top: 80px;
+	padding-bottom: 0;
 }
 
 .top-space-page{
@@ -264,6 +265,28 @@ label{
 	-moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+.rodape i{
+	color: #ffffff;
+	font-size: 2em;
+	margin-left: 10px;
+}
+
+.rodape i:hover{
+	color: #ccc;
+}
+
+.rodape p{
+	color: #ffffff;
+}
+
+.rodape ul li a{
+	color: #ffffff;
+}
+
+.wpcf7-submit{
+	color: #000;
 }
 
 @media (max-width: 800px){

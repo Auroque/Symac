@@ -35,6 +35,10 @@ label{
 	font-weight: 500;
 }
 
+label span input{
+	font-size: 1em!important;
+}
+
 .fundo-cinza{
 	background-color: #f3f3f3;
 }

@@ -1,7 +1,7 @@
 /*
 Theme Name: Aguia Utilidades
 Author: Luiz Augusto
-Description: Utilidades em Geral.
+Description: Symac Gestão.
 Version: 1.0
 */
 
@@ -43,10 +43,14 @@ textarea{
 	height: 200px;
 }
 
+.rodape h2{
+	display: table;	
+}
+
 .rodape h2:after{
 	content: "";
 	height: 3px;
-	width: 6%;
+	width: 60%;
 	background-color: #ef7538;
 	display: block;
 	margin-top: 5px;
@@ -124,6 +128,7 @@ textarea{
 }
 
 .menu-menu-container ul li a{
+	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: 700;
 	transition: 0.5s;
@@ -294,6 +299,11 @@ textarea{
 
 .wpcf7-submit{
 	color: #000;
+}
+
+.rodape .menu-menu-container ul li{
+	display: block;
+	line-height: 18px;
 }
 
 @media (max-width: 800px){

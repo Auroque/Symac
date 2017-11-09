@@ -27,36 +27,25 @@ $sections = new WP_Query(
 	</ul>
 </div>
 
- <!-- início de Diferenciais -->
+ <!-- início de Segmento -->
  <div class="section fundo-cinza">
  	<div class="container principais-produtos">
  		<div class="row">	
- 			<?php 
-			$sections = new WP_Query(
-				array(
-					'post_type' => 'segmento',
-					'ignore_sticky_posts' => true,
-					'showposts' => -1,
-					'orderby' => array(
-        				'date'          => 'DESC',
-        				'comment_count' => 'DESC',
-   					 ),
-					'order' => 'ASC'
-					)
-			);
-			?>
 			<h1>SEGMENTOS</h1>
-			<?php if ($sections->have_posts()): ?>
-				<?php while ($sections->have_posts()) : $sections->the_post(); ?>
+			<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 				<div class="col-md-3">
 					<div class="cont-img cont-img-sg">
 						<a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
 						<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>			
 					</div>							
 				</div>
-				<?php endwhile; ?>
-			<?php endif; ?>
-			<?php wp_reset_query(); ?>
+				<?php 
+					 endwhile;
+					 else:
+				?>
+				<p>Nenhum post publicado!</p>
+				<?php endif; ?>
+				</div>
  		</div>
  	</div>
  </div>

@@ -2,7 +2,6 @@
 include "widget/rodape-local.php";
 include "posttype/diferenciais.php";
 include "posttype/slider.php";
-include "posttype/segmento.php";
 
 function register_my_menu() {
   register_nav_menu('header-menu',__( 'Header Menu' ));

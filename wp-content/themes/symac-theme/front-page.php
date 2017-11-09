@@ -14,19 +14,17 @@ $sections = new WP_Query(
 		)
 );
 ?>
-<div class="section top-space">
-	<div class="slider">
-	    <ul class="slides">
-	    <?php if ($sections->have_posts()): ?>
-			<?php while ($sections->have_posts()) : $sections->the_post(); ?>
-		      <li>
-		        <img alt="thumb image" class="wp-post-image" src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:650px;">
-		      </li>
-			<?php endwhile; ?>
-			<?php endif; ?>
+<div class="slides top-space">
+	<ul>
+		<?php if ($sections->have_posts()): ?>
+		<?php while ($sections->have_posts()) : $sections->the_post(); ?>
+			<li>
+		  		<img alt="thumb image" class="wp-post-image" src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:auto;">
+			</li>
+		<?php endwhile; ?>
+		<?php endif; ?>
 		<?php wp_reset_query(); ?>
-	    </ul>
-	  </div>
+	</ul>
 </div>
 
  <!-- início de Diferenciais -->

@@ -39,6 +39,20 @@ label span input{
 	font-size: 1em!important;
 }
 
+textarea{
+	height: 200px;
+}
+
+.rodape h2:after{
+	content: "";
+	height: 3px;
+	width: 6%;
+	background-color: #ef7538;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+
 #botao{
 	color: #fff;
     font-weight: 700;

@@ -4,11 +4,8 @@
 				<div class="col-md-4">
 					<?php if ( dynamic_sidebar('rodape_widgets') ) : else : endif; ?>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-8">
 					<?php if ( dynamic_sidebar('rodape_widgets-2') ) : else : endif; ?>
-				</div>
-				<div class="col-md-4">
-					<?php if ( dynamic_sidebar('rodape_widgets-3') ) : else : endif; ?>
 				</div>
 			</div>
 		</div>

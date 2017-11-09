@@ -15,7 +15,7 @@ h1{
 
 h3{
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1em;
     text-transform: uppercase;
     font-weight: 700;
     color: #257abd;
@@ -37,6 +37,12 @@ label{
 
 label span input{
 	font-size: 1em!important;
+}
+
+#botao{
+	color: #fff;
+    font-weight: 700;
+    background-image: linear-gradient(to left, #ef7538, #ffbd9d 130%);
 }
 
 .fundo-cinza{

@@ -84,7 +84,7 @@ $sections = new WP_Query(
 			<h1>Diferenciais</h1>
 			<?php if ($sections->have_posts()): ?>
 				<?php while ($sections->have_posts()) : $sections->the_post(); ?>
-				<div class="col-md-4 altura">
+				<div class="col-md-4 altura dif">
 					<div class="cont-img">
 						<img alt="thumb image" class="wp-post-image" src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:auto;" />
 					</div>

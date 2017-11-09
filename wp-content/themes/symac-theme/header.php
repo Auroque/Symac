@@ -59,7 +59,7 @@
 					<div class="col-md-2 login">
 						<div class="centralizar">
 							<div class="posicao">
-								<a class="btn btn-default" href="#" role="button" target="_blank">ACESSAR</a>	
+								<a id="botao" class="btn btn-default" href="#" role="button" target="_blank">ACESSAR</a>	
 							</div>							
 						</div>
 					</div>

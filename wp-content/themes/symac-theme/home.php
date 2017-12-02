@@ -26,6 +26,10 @@ $sections = new WP_Query(
 		<?php endif; ?>
 		<?php wp_reset_query(); ?>
 	</ul>
+	<p class="arrow">
+		<a href="#" id="previous"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+		<a href="#" id="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+	</p>
 </div>
 
  <div class="section fundo-cinza">

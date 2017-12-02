@@ -8,6 +8,8 @@ $(function(){
 		fx: 'fade',
 		speed: 2000,
 		timeout: 3000,
+		prev: '#previous',
+		next: '#next',
 
 	})
 })
